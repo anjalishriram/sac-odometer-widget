@@ -1,6 +1,7 @@
-/*! Canvas Gauges library (minified version) */
-// Insert the minified content of gauge.min.js here
-// You can download it from https://cdn.jsdelivr.net/npm/canvas-gauges/gauge.min.js
+/*!
+ * Canvas Gauges library (minified version)
+ * You can copy the minified code from https://cdn.jsdelivr.net/npm/canvas-gauges/gauge.min.js
+ */
 
 // ------------------------
 // Custom OdometerGauge widget
@@ -17,7 +18,7 @@ class OdometerGauge extends HTMLElement {
         this.maxValue = 100;
         this.title = 'KPI';
 
-        // Initialize gauge immediately
+        // Initialize gauge
         this._gauge = new RadialGauge({
             renderTo: canvas,
             width: 260,
